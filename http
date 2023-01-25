@@ -20,6 +20,7 @@ DELETE: Responsável por deletar informações contidas em um servidor. Ex: Ao d
 
 PUT: Responsável por atualizar os dados contidos em um servidor. Ex: Ao editar uma informação de endereço ou dados pessoais do seu 
 cadastro, utilizará o método PUT.
+
 WSDL (Linguagem de Descrição de Serviços Web) é uma linguagem de descrição de serviços Web. O WSDL é como se fosse as especificações 
 de um Web Service, onde informará tudo o que o web service pode oferecer. Portanto, sabemos o que um serviço web precisa receber para 
 funcionar e o que ele deverá devolver após a execução.
