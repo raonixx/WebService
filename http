@@ -1,0 +1,28 @@
+Faça um projeto explicando como funcionam os métodos HTTP com exemplos de requisições, sua utilização e em qual momento cada um 
+dos métodos devem ser utilizados. 
+Além disso, descreva o que é WSDL, seu significado e sua função.
+
+
+Aluno: Raoni Xavier
+
+O HTTP (Hypertext Transfer Protocol ou Protocolo de Transferência de Hipertexto) trata-se do protocolo fundamental responsável pela 
+comunicação de sites na web. Ou seja, uma convenção de regras e padrões que controla e possibilita uma conexão e troca de dados entre 
+dois sistemas computacionais. Para acessar qualquer site precisamos utilizá-lo. Esse protocolo possui alguns métodos importantes para 
+realização da comunicação do seu computador para os servidores dos sites.
+
+GET: Responsável por obter informações de um servidor. Ex: Ao fazer o cadastro em um site de compras, pode existir o método GET utilizando 
+o API VIA CEP para adquirir informações de endereço.
+
+POST: Responsável por transferir informações para um servidor. Ex: Ao fazer um login em um e-commerce utilizamos o método POST para enviar 
+os dados e receber uma resposta do servidor.
+
+DELETE: Responsável por deletar informações contidas em um servidor. Ex: Ao deletar alguma informação cadastral sua.
+
+PUT: Responsável por atualizar os dados contidos em um servidor. Ex: Ao editar uma informação de endereço ou dados pessoais do seu 
+cadastro, utilizará o método PUT.
+WSDL (Linguagem de Descrição de Serviços Web) é uma linguagem de descrição de serviços Web. O WSDL é como se fosse as especificações 
+de um Web Service, onde informará tudo o que o web service pode oferecer. Portanto, sabemos o que um serviço web precisa receber para 
+funcionar e o que ele deverá devolver após a execução.
+
+
+
