@@ -1,0 +1,45 @@
+Demonstre como fazer as quatro operações de CRUD e suas rotas para obter o recurso de um livro que está no estoque de uma livraria. Um livro possui informações como nome, autor e ISBN.
+ 
+Aluno: Raoni Xavier
+
+
+Para incluir livros no banco de dados:
+{
+  “livros”:[
+     {
+        “nome”:”Livro1”,
+        “autor”:”Autor1”,
+        “ISBN”:"387166182929"
+     },
+
+     {
+        “nome”:”Livro2”,
+        “autor”:”Autor2”,
+        “ISBN”:"091388748374"
+     },
+
+Para obter dados do livro:
+
+const response = await fetch('/book/{nome}' , {
+    body: JSON.stringify(body),
+    method: 'get'
+})
+
+Para incluir um livro:
+const response = await fetch('/book/{nome}' , {
+    body: JSON.stringify(body),
+    method: 'post'
+})
+
+Para editar um livro:
+const response = await fetch('/book/{nome}' , {
+    body: JSON.stringify(body),
+    method: 'put'
+})
+
+Para excluir um livro:
+const response = await fetch('/book/{nome}' , {
+    body: JSON.stringify(body), 
+    method: 'delete' 
+})
+
